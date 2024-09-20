@@ -20,14 +20,16 @@
 // }
 
 // //while loop
-// let y = 1; // starting point
-// do{
-//     document.write(y+",")
-//     y++; //increment
-// }
-//do-while loop
+// // let y = 1; // starting point
+// // do{
+// //     document.write(y+",")
+// //     y++; //increment
+// // }
+// //do-while loop
+
 
 let f = 1; //starting point
+
 do{
     document.write(f+",");
     f++; //increment
