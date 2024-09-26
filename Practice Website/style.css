@@ -1,0 +1,25 @@
+body{
+    height: 100% vw;
+    width: 100% vw;
+    background-color: #42464e;
+}
+header{
+    background-color: #292b2f;
+    height: 120px;
+    width: 100%;
+}
+.card{
+    background-color: ;
+    height: 100px;
+    width: 100px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
