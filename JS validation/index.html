@@ -1,0 +1,33 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="valform" onsubmit="validateForm()">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="submit">
+        <p id="result"></p>
+        <script src="script.js"></script>
+    </form>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation APIs</title>
+</head>
+<body>
+    <p>ENTER A NUMBER AND CLICK OK:</p>
+    <input type="number" id="id1" min="100" max="300" required>
+    <button onclick="myFunction()">OK</button>
+    <p>IF THE NUMBER IS LESS THAN 100 OR GREATER THAN 300, AN ERROR WILL BE DISPLAYED</p>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>

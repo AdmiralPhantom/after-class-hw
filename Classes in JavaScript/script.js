@@ -19,5 +19,3 @@ document.getElementById("student1").innerHTML = "my name is " + student1.name + 
 let student2= new student("Shaheem", 2012);
 document.getElementById("student2").innerHTML = "My name is " + student2.name + " My birthtyear is " + student2.birthyear + " my age is " +student2.age();
 let i = 0;
-
-for 

@@ -1,25 +1,13 @@
 body{
-    height: 100% vw;
-    width: 100% vw;
-    background-color: #42464e;
-}
-header{
-    background-color: #292b2f;
-    height: 120px;
-    width: 100%;
-}
-.card{
-    background-color: ;
-    height: 100px;
-    width: 100px;
-
-}
-
-a{
-    color: white;
-    text-decoration: none;
+    background-color: rgb(58, 58, 58);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    color: white;
     justify-content: space-between;
+}
+input{
+    height: 10px;
+    
 }
